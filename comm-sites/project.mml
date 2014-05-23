@@ -1,38 +1,28 @@
 {
   "bounds": [
-    -180,
-    -85.05112877980659,
-    180,
-    85.05112877980659
+    -121.3426,
+    34.7698,
+    -119.9638,
+    35.8078
   ],
   "center": [
-    0,
-    0,
-    2
+    -120.6587,
+    35.3207,
+    9
   ],
   "format": "png",
   "interactivity": false,
-  "minzoom": 0,
-  "maxzoom": 22,
+  "minzoom": 9,
+  "maxzoom": 15,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"
   ],
   "Layer": [
     {
-      "id": "countries",
-      "name": "countries",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "geometry": "polygon",
-      "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
-        "type": "shape"
-      }
-    },
-    {
       "geometry": "point",
       "extent": [
-        -121.28459999999995,
+        -121.28460000000001,
         34.841939516000025,
         -120.04079999999999,
         36.07343333000006
@@ -40,7 +30,7 @@
       "id": "commsitesnew",
       "class": "",
       "Datasource": {
-        "file": "C:\\_data\\Facilities_Landmarks\\Comms_Map\\comm_sites_new.shp",
+        "file": "https://raw.githubusercontent.com/SLUGIS/comm-sites/master/comm_sites_slu.geojson",
         "id": "commsitesnew",
         "project": "comm_sites",
         "srs": ""
@@ -53,6 +43,7 @@
   ],
   "scale": 1,
   "metatile": 2,
-  "name": "",
-  "description": ""
+  "name": "comm-sites",
+  "description": "",
+  "attribution": ""
 }
